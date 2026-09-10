@@ -1,0 +1,17 @@
+{
+  "name": "Ailyn House Project Control",
+  "short_name": "Ailyn House",
+  "description": "Construction, materials, payroll, and project progress in one place.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#06170f",
+  "theme_color": "#0c6b3b",
+  "icons": [
+    {
+      "src": "/app/static/ailyn-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

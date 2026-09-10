@@ -1,0 +1,6 @@
+data/
+.env
+__pycache__/
+*.py[cod]
+.uploaded-restore.*
+.nell-upgrade-*
