@@ -2531,7 +2531,7 @@ if view == "home":
                 st.session_state.dashboard_section = key
                 st.rerun()
 
-    if section == "overview":
+        if section == "overview":
                 project_name = escape_report_text(st.session_state.project.get("name", "Ailyn House Project"))
                 project_status = st.session_state.project.get("status", "Active")
                 task_rows = sorted(st.session_state.planner_tasks, key=lambda item: item.get("date_obj", ""), reverse=True)[:5]
